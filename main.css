@@ -1,0 +1,57 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+header {
+	text-align:center;
+	color: #034f84;
+}
+
+button {
+	background-color:#f7786b;
+	font-size:1em;
+	padding:5px 10px 5px 10px;
+	border-color:#f7786b;
+}
+
+button:hover {
+	font-weight:bold;
+	border-color:#f7cac9;
+}
+
+.instructions {
+	width:50%;
+	text-align:left;
+	margin:0 auto;
+	padding:5px;
+
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.spacer {
+	height:10px;
+}
+
+.cell {
+	border: 1px solid #034f84;
+	background-color:#92a8d1;
+	height:100px;
+	text-align:center;
+	font-size:3em;
+	padding-top:20px;
+}
+
+.hidden {
+	display:none;
+}
+
+.winner, .tie {
+	display:block;
+	margin-bottom:10px;
+	font-size:1em;
+	font-weight:bold;
+}
